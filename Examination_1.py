@@ -8,5 +8,5 @@
 # นักเรียนเขียนโค้ดต่อจากบรรทัดนี้
 total_minutes = int(input())
 
-print(total_minutes/60)
+print (int(total_minutes/60))
 print(total_minutes - 60)
