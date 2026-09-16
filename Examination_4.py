@@ -6,4 +6,11 @@
 
 
 # นักเรียนเขียนโค้ดต่อจากบรรทัดนี้
-color = input()
+color = input("")
+
+if color == "red":
+    print("Stop")
+elif color == "yellow":
+    print("Slow")
+elif color == "green":
+    print("Go")
