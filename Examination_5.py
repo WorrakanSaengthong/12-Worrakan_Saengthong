@@ -8,3 +8,10 @@
 
 # นักเรียนเขียนโค้ดต่อจากบรรทัดนี้
 unit = int(input())
+
+if unit < 50:
+    print("ค่าไฟฟ้ารวม = ",unit*3)
+elif unit < 100:
+    print("ค่าไฟฟ้ารวม = ",unit*4)
+else:
+    print("ค่าไฟฟ้ารวม = ",unit*5)
