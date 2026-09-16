@@ -8,3 +8,8 @@
 # นักเรียนเขียนโค้ดต่อจากบรรทัดนี้
 a = int(input())
 b = int(input())
+
+if a > b:
+    print("a is greater")
+elif a <= b:
+    print("b is greater or equal")
